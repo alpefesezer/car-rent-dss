@@ -347,8 +347,20 @@
           "isUsed": true,
           "price": 75000,
           "carYear": 2022,
-          "imageUrl": "https://example.com/bmw_i8.jpg"
+          "imageUrl": "https://cdn.motor1.com/images/mgl/ew9xK/s1/2016-bmw-i8.webp"
         },
+        "bmw_i8_2": {
+            "carBrand": "BMW",
+            "carModel": "i8",
+            "carType": "Coupe",
+            "fuelType": "Hybrid",
+            "gearType": "Automatic",
+            "driveType": "All-Wheel Drive",
+            "isUsed": false,
+            "price": 75000,
+            "carYear": 2024,
+            "imageUrl": "https://lh3.googleusercontent.com/proxy/bVK7QWzzmLUiz-V4j8lW6ZZEXr5pyXpb-bH7aEBBh7SVUkPUzXueIsXDT7_1Sf1dgmsBwwkize-P0XS7feOfawdyq5_iTIuBba3g1kLKzFhjQ4APgQWF-ycxpAG8"
+          },
         "audi_a1": {
             "carBrand": "Audi",
             "carModel": "A1",
@@ -359,7 +371,19 @@
             "isUsed": false,
             "price": 30000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/e9vEV/s3/2019-audi-a1-sportback.webp"
+          },
+          "audi_a1_2": {
+            "carBrand": "Audi",
+            "carModel": "A1",
+            "carType": "Hatchback",
+            "fuelType": "Gasoline",
+            "gearType": "Automatic",
+            "driveType": "Front-Wheel Drive",
+            "isUsed": true,
+            "price": 30000,
+            "carYear": 2020,
+            "imageUrl": "https://parkers-images.bauersecure.com/Scale/wp-images/22053/cut-out/450x300/audi-a1-00.jpg"
           },
           "audi_a3": {
             "carBrand": "Audi",
@@ -371,19 +395,31 @@
             "isUsed": false,
             "price": 35000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://arabam-blog.mncdn.com/wp-content/uploads/2020/12/New-Audi-A3-2020-UK-7.jpg"
           },
           "audi_a4": {
+            "carBrand": "Audi",
+            "carModel": "A4",
+            "carType": "Sedan",
+            "fuelType": "Gasoline",
+            "gearType": "Automatic",
+            "driveType": "All-Wheel Drive",
+            "isUsed": true,
+            "price": 40000,
+            "carYear": 2015,
+            "imageUrl": "https://www.shutterstock.com/image-photo/whittleburynorthantsuk-aug-6th-2023-2018-600nw-2343504405.jpg"
+          },
+          "audi_a4_2": {
             "carBrand": "Audi",
             "carModel": "A4",
             "carType": "Sedan",
             "fuelType": "Hybrid",
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
-            "isUsed": true,
-            "price": 40000,
-            "carYear": 2015,
-            "imageUrl": ""
+            "isUsed": false,
+            "price": 60000,
+            "carYear": 2024,
+            "imageUrl": "https://arabam-blog.mncdn.com/wp-content/uploads/2021/07/yeni-audi-a4.jpg"
           },
           "audi_a5": {
             "carBrand": "Audi",
@@ -395,9 +431,21 @@
             "isUsed": false,
             "price": 45000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/lZO4g/s3/2020-audi-a5-sportback-s-line-facelift-shot-by-auditography.jpg"
           },
           "audi_a6": {
+            "carBrand": "Audi",
+            "carModel": "A6",
+            "carType": "Sedan",
+            "fuelType": "Electric",
+            "gearType": "Automatic",
+            "driveType": "Rear-Wheel Drive",
+            "isUsed": true,
+            "price": 50000,
+            "carYear": 2020,
+            "imageUrl": "https://cdn.motor1.com/images/mgl/E6PPMo/s1/audi-a6-spy-photos.jpg"
+          },
+          "audi_a6_2": {
             "carBrand": "Audi",
             "carModel": "A6",
             "carType": "Sedan",
@@ -407,19 +455,31 @@
             "isUsed": false,
             "price": 50000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://www.hancar.com.tr/img/araclar/17470/1.jpg"
           },
           "audi_a7": {
             "carBrand": "Audi",
             "carModel": "A7",
-            "carType": "Coupe",
+            "carType": "Sedan",
             "fuelType": "Gasoline",
             "gearType": "Automatic",
             "driveType": "Front-Wheel Drive",
             "isUsed": true,
             "price": 55000,
             "carYear": 2019,
-            "imageUrl": ""
+            "imageUrl": "https://i0.shbdn.com/photos/73/53/09/x5_1130735309m0y.jpg"
+          },
+          "audi_a7_2": {
+            "carBrand": "Audi",
+            "carModel": "A7",
+            "carType": "Sedan",
+            "fuelType": "Gasoline",
+            "gearType": "Automatic",
+            "driveType": "Front-Wheel Drive",
+            "isUsed": false,
+            "price": 75000,
+            "carYear": 2019,
+            "imageUrl": "https://i0.shbdn.com/photos/73/53/09/x5_1130735309m0y.jpg"
           },
           "audi_a8": {
             "carBrand": "Audi",
