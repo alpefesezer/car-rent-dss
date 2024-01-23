@@ -17,6 +17,30 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 
+export async function getAllCars() {
+    const cars = [];
+  
+    // Create a reference to the cars collection
+    const carsCollection = collection(db, 'cars');
+  
+    try {
+      // Execute the query to get all documents in the collection
+      const querySnapshot = await getDocs(carsCollection);
+  
+      // Loop through the documents and extract cars
+      querySnapshot.forEach((doc) => {
+        const car = doc.data();
+        cars.push(car);
+      });
+  
+      console.log(cars);
+      return cars;
+    } catch (error) {
+      console.error('Error getting all cars:', error);
+      return [];
+    }
+  }
+
 
 export async function getCarsWithOptions(options) {
   const cars = [];
