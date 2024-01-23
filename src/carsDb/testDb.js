@@ -3,13 +3,13 @@ import { getFirestore, collection, getDocs, query, where, getDoc } from "firebas
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDP7O4Pk7hlle1Y5nP-UfWioXb1god_tDM",
-  authDomain: "cars-6384f.firebaseapp.com",
-  projectId: "cars-6384f",
-  storageBucket: "cars-6384f.appspot.com",
-  messagingSenderId: "68464753660",
-  appId: "1:68464753660:web:d222019e42e2eaf0e61079",
-  measurementId: "G-MQ9SX87Q05"
+    apiKey: "AIzaSyCusoLFmPQf-6JWMmFFI3ToS9k6RDm4kP8",
+    authDomain: "cars2-488f3.firebaseapp.com",
+    projectId: "cars2-488f3",
+    storageBucket: "cars2-488f3.appspot.com",
+    messagingSenderId: "979830295690",
+    appId: "1:979830295690:web:594354e05a9463e773f173",
+    measurementId: "G-16C956WWYG"
 };
 
 // Initialize Firebase
