@@ -4,11 +4,12 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 
-export default function SelectCarType() {
+export default function SelectCarType({ setSelectedCarType }) {
   const [carType, setCarType] = React.useState("");
 
   const handleChange = (event) => {
     setCarType(event.target.value);
+    setSelectedCarType(event.target.value);
   };
 
   return (

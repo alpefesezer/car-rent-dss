@@ -29,7 +29,10 @@ export default function SelectBrand({ setBrand }) {
           </MenuItem>
           <MenuItem value={"Mercedes"}>Mercedes</MenuItem>
           <MenuItem value={"BMW"}>BMW</MenuItem>
-          <MenuItem value={"Ford"}>Ford</MenuItem>
+          <MenuItem value={"Audi"}>Audi</MenuItem>
+          <MenuItem value={"Volkswagen"}>Volkswagen</MenuItem>
+          <MenuItem value={"Porsche"}>Porsche</MenuItem>
+          <MenuItem value={"Opel"}>Opel</MenuItem>
         </Select>
       </FormControl>
     </div>

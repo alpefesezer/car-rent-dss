@@ -5,11 +5,12 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 
-export default function SelectYear() {
+export default function SelectYear({ setSelectedYear }) {
   const [year, setYear] = React.useState("");
 
   const handleChange = (event) => {
     setYear(event.target.value);
+    setSelectedYear(event.target.value);
   };
 
   return (

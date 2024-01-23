@@ -4,11 +4,12 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 
-export default function SelectDriveType() {
+export default function SelectDriveType({ setSelectedDriveType }) {
   const [driveType, setDriveType] = React.useState("");
 
   const handleChange = (event) => {
     setDriveType(event.target.value);
+    setSelectedDriveType(event.target.value);
   };
 
   return (

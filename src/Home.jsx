@@ -16,6 +16,7 @@ import SelectFuelType from "./SelectFuelType";
 import SelectCarType from "./SelectCarType";
 import SelectGearType from "./SelectGearType";
 import SelectDriveType from "./SelectDriveType";
+import { getCarsWithOptions } from "./carsDb/testDb";
 
 const steps = [
   {
@@ -53,25 +54,120 @@ const steps = [
   },
 ];
 
-const buttons = [
-  <Button key="under20k">Under 20K$</Button>,
-  <Button key="under40k">Under 40K$</Button>,
-  <Button key="under60k">Under 60K$</Button>,
-  <Button key="under80k">Under 80K$</Button>,
-  <Button key="under100k">Under 100K$</Button>,
-];
-
 export default function Home() {
   const [activeStep, setActiveStep] = React.useState(0);
   const [isBudget, setIsBudget] = React.useState(true);
   const [isBrand, setIsBrand] = React.useState(false);
   const [brand, setBrand] = React.useState("");
+  const [selectedModel, setSelectedModel] = React.useState("");
+  const [selectedIsNew, setSelectedIsNew] = React.useState("");
+  const [selectedYear, setSelectedYear] = React.useState("");
+  const [selectedFuelType, setSelectedFuelType] = React.useState("");
+  const [selectedCarType, setSelectedCarType] = React.useState("");
+  const [selectedDriveType, setSelectedDriveType] = React.useState("");
+  const [selectedGearType, setSelectedGearType] = React.useState("");
   const [isNew, setIsNew] = React.useState(false);
   const [isYear, setIsYear] = React.useState(false);
   const [isFuelType, setIsFuelType] = React.useState(false);
   const [isCarType, setIsCarType] = React.useState(false);
   const [isGearType, setIsGearType] = React.useState(false);
   const [isDriveType, setIsDriveType] = React.useState(false);
+  const [userOptions, setUserOptions] = React.useState({});
+  const [selectedButton, setSelectedButton] = React.useState(null);
+
+  // userOptions = {
+  //   carBrand: "BMW",
+  //   carModel: "i3",
+  //   carType: "Hatchback",
+  //   fuelType: "Electric",
+  //   gearType: "Automatic",
+  //   driveType: "All-Wheel Drive",
+  //   isUsed: false,
+  //   price: 70000,
+  //   carYear: 2024,
+  // };
+
+  async function handlePrice(event) {
+    let maxPrice;
+    switch (event.target.id) {
+      case "20k":
+        maxPrice = 20000;
+        break;
+      case "40k":
+        maxPrice = 40000;
+        break;
+      case "60k":
+        maxPrice = 60000;
+        break;
+      case "80k":
+        maxPrice = 80000;
+        break;
+      case "100k":
+        maxPrice = 100000;
+        break;
+      default:
+        return;
+    }
+
+    setUserOptions((prevOptions) => ({ ...prevOptions, maxPrice }));
+    setSelectedButton(event.target.id);
+  }
+
+  React.useEffect(() => {
+    const fetchData = async () => {
+      //await getCarsWithOptions(userOptions);
+    };
+
+    fetchData();
+  }, [userOptions]);
+
+  const buttons = [
+    <Button
+      id="20k"
+      onClick={handlePrice}
+      style={{
+        backgroundColor: selectedButton === "20k" ? "pink" : "defaultColor",
+      }}
+    >
+      Under 20K$
+    </Button>,
+    <Button
+      id="40k"
+      onClick={handlePrice}
+      style={{
+        backgroundColor: selectedButton === "40k" ? "pink" : "defaultColor",
+      }}
+    >
+      Under 40K$
+    </Button>,
+    <Button
+      id="60k"
+      onClick={handlePrice}
+      style={{
+        backgroundColor: selectedButton === "60k" ? "pink" : "defaultColor",
+      }}
+    >
+      Under 60K$
+    </Button>,
+    <Button
+      id="80k"
+      onClick={handlePrice}
+      style={{
+        backgroundColor: selectedButton === "80k" ? "pink" : "defaultColor",
+      }}
+    >
+      Under 80K$
+    </Button>,
+    <Button
+      id="100k"
+      onClick={handlePrice}
+      style={{
+        backgroundColor: selectedButton === "100k" ? "pink" : "defaultColor",
+      }}
+    >
+      Under 100K$
+    </Button>,
+  ];
 
   const handleNext = () => {
     setActiveStep((prevActiveStep) => {
@@ -165,8 +261,60 @@ export default function Home() {
     });
   };
 
-  const handleReset = () => {
+  const handleFilter = () => {
+    getCarsWithOptions(userOptions);
     setActiveStep(0);
+  };
+
+  const handleBrandChange = (brand) => {
+    const carBrand = brand;
+    setBrand(brand);
+    setUserOptions((prevOptions) => ({ ...prevOptions, carBrand }));
+  };
+
+  const handleModelChange = (selectedModel) => {
+    const carModel = selectedModel;
+    setSelectedModel(selectedModel);
+    setUserOptions((prevOptions) => ({ ...prevOptions, carModel }));
+    console.log(userOptions);
+  };
+
+  const handleIsNew = (selectedIsNew) => {
+    const isUsed = selectedIsNew;
+    setSelectedIsNew(selectedIsNew);
+    setUserOptions((prevOptions) => ({ ...prevOptions, isUsed }));
+    console.log(selectedIsNew);
+  };
+
+  const handleYearChange = (selectedYear) => {
+    const carYear = selectedYear;
+    setSelectedYear(selectedYear);
+    setUserOptions((prevOptions) => ({ ...prevOptions, carYear }));
+    console.log(selectedYear);
+  };
+
+  const handleFuelTypeChange = (selectedFuelType) => {
+    const fuelType = selectedFuelType;
+    setSelectedFuelType(selectedFuelType);
+    setUserOptions((prevOptions) => ({ ...prevOptions, fuelType }));
+  };
+
+  const handleCarTypeChange = (selectedCarType) => {
+    const carType = selectedCarType;
+    setSelectedCarType(selectedCarType);
+    setUserOptions((prevOptions) => ({ ...prevOptions, carType }));
+  };
+
+  const handleGearTypeChange = (selectedGearType) => {
+    const gearType = selectedGearType;
+    setSelectedGearType(selectedGearType);
+    setUserOptions((prevOptions) => ({ ...prevOptions, gearType }));
+  };
+
+  const handleDriveTypeChange = (selectedDriveType) => {
+    const driveType = selectedDriveType;
+    setSelectedDriveType(selectedDriveType);
+    setUserOptions((prevOptions) => ({ ...prevOptions, driveType }));
   };
 
   return (
@@ -206,14 +354,29 @@ export default function Home() {
                     </ButtonGroup>
                   </Box>
                 )}
-                {isBrand && <SelectBrand setBrand={setBrand} />}
-                {isBrand && <SelectModel brand={brand} />}
-                {isNew && <SelectIsNew />}
-                {isYear && <SelectYear />}
-                {isFuelType && <SelectFuelType />}
-                {isCarType && <SelectCarType />}
-                {isGearType && <SelectGearType />}
-                {isDriveType && <SelectDriveType />}
+                {isBrand && <SelectBrand setBrand={handleBrandChange} />}
+                {isBrand && (
+                  <SelectModel
+                    brand={brand}
+                    setSelectedModel={handleModelChange}
+                  />
+                )}
+                {isNew && <SelectIsNew setSelectedIsNew={handleIsNew} />}
+                {isYear && <SelectYear setSelectedYear={handleYearChange} />}
+                {isFuelType && (
+                  <SelectFuelType setSelectedFuelType={handleFuelTypeChange} />
+                )}
+                {isCarType && (
+                  <SelectCarType setSelectedCarType={handleCarTypeChange} />
+                )}
+                {isGearType && (
+                  <SelectGearType setSelectedGearType={handleGearTypeChange} />
+                )}
+                {isDriveType && (
+                  <SelectDriveType
+                    setSelectedDriveType={handleDriveTypeChange}
+                  />
+                )}
                 <Box sx={{ mb: 2 }}>
                   <div>
                     <Button
@@ -221,7 +384,7 @@ export default function Home() {
                       onClick={handleNext}
                       sx={{ mt: 1, mr: 1 }}
                     >
-                      {index === steps.length - 1 ? "Search" : "Continue"}
+                      Continue
                     </Button>
                     <Button
                       disabled={index === 0}
@@ -248,9 +411,16 @@ export default function Home() {
         </Stepper>
         {activeStep === steps.length && (
           <Paper square elevation={0} sx={{ p: 3 }}>
-            <Typography>All steps completed - you&apos;re finished</Typography>
-            <Button onClick={handleReset} sx={{ mt: 1, mr: 1 }}>
-              Reset
+            <Typography>
+              All steps completed - Now you can filter and see the best cars for
+              you!
+            </Typography>
+            <Button
+              variant="contained"
+              onClick={handleFilter}
+              sx={{ mt: 1, mr: 1 }}
+            >
+              Filter
             </Button>
           </Paper>
         )}

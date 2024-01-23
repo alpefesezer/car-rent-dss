@@ -4,11 +4,12 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 
-export default function SelectFuelType() {
+export default function SelectFuelType({ setSelectedFuelType }) {
   const [fuelType, setFuelType] = React.useState("");
 
   const handleChange = (event) => {
     setFuelType(event.target.value);
+    setSelectedFuelType(event.target.value);
   };
 
   return (

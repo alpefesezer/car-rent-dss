@@ -4,11 +4,12 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 
-export default function SelectIsNew() {
+export default function SelectIsNew({ setSelectedIsNew }) {
   const [status, setStatus] = React.useState("");
 
   const handleChange = (event) => {
     setStatus(event.target.value);
+    setSelectedIsNew(event.target.value);
   };
 
   return (
@@ -23,9 +24,9 @@ export default function SelectIsNew() {
           autoWidth
           label="Status"
         >
-          <MenuItem value="brandNew">Brand New</MenuItem>
-          <MenuItem value="used">Used</MenuItem>
-          <MenuItem value="nothing">Doesn't matter</MenuItem>
+          <MenuItem value="false">Brand New</MenuItem>
+          <MenuItem value="true">Used</MenuItem>
+          <MenuItem value="">Doesn't matter</MenuItem>
         </Select>
       </FormControl>
     </div>
