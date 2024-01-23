@@ -55,10 +55,10 @@ const steps = [
 
 const buttons = [
   <Button key="under20k">Under 20K$</Button>,
-  <Button key="under40k">20K$ - 40K$</Button>,
-  <Button key="under60k">40K$ - 60K$</Button>,
-  <Button key="under80k">60K$ - 80K$</Button>,
-  <Button key="under100k">80K$ - 100K$</Button>,
+  <Button key="under40k">Under 40K$</Button>,
+  <Button key="under60k">Under 60K$</Button>,
+  <Button key="under80k">Under 80K$</Button>,
+  <Button key="under100k">Under 100K$</Button>,
 ];
 
 export default function Home() {
