@@ -503,7 +503,7 @@ export default function Home() {
           flexDirection: "row",
           flexWrap: "wrap",
           gap: 90,
-          marginLeft: "6%",
+          justifyContent:"center",
           marginTop: "4%",
         }}
       >
