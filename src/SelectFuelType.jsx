@@ -26,10 +26,10 @@ export default function SelectFuelType({ setSelectedFuelType }) {
           autoWidth
           label="FuelType"
         >
-          <MenuItem value="electric">Electric</MenuItem>
-          <MenuItem value="diesel">Diesel</MenuItem>
-          <MenuItem value="gasoline">Gasoline</MenuItem>
-          <MenuItem value="hybrid">Hybrid</MenuItem>
+          <MenuItem value={"Electric"}>Electric</MenuItem>
+          <MenuItem value={"Diesel"}>Diesel</MenuItem>
+          <MenuItem value={"Gasoline"}>Gasoline</MenuItem>
+          <MenuItem value={"Hybrid"}>Hybrid</MenuItem>
         </Select>
       </FormControl>
     </div>

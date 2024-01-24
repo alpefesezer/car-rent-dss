@@ -26,8 +26,8 @@ export default function SelectGearType({ setSelectedGearType }) {
           autoWidth
           label="GearType"
         >
-          <MenuItem value="manuel">Manuel</MenuItem>
-          <MenuItem value="automatic">Automatic</MenuItem>
+          <MenuItem value={"Manuel"}>Manuel</MenuItem>
+          <MenuItem value={"Automatic"}>Automatic</MenuItem>
         </Select>
       </FormControl>
     </div>

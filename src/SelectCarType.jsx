@@ -26,10 +26,12 @@ export default function SelectCarType({ setSelectedCarType }) {
           autoWidth
           label="CarType"
         >
-          <MenuItem value="sedan">Sedan</MenuItem>
-          <MenuItem value="coupe">Coupe</MenuItem>
-          <MenuItem value="suv">SUV</MenuItem>
-          <MenuItem value="convertible">Convertible</MenuItem>
+          <MenuItem value="Sedan">Sedan</MenuItem>
+          <MenuItem value="Coupe">Coupe</MenuItem>
+          <MenuItem value="SUV">SUV</MenuItem>
+          <MenuItem value="Convertible">Convertible</MenuItem>
+          <MenuItem value="Hatchback">Hatchback</MenuItem>
+          <MenuItem value="Pickup">Pickup</MenuItem>
         </Select>
       </FormControl>
     </div>

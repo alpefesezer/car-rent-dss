@@ -16,7 +16,7 @@ import SelectFuelType from "./SelectFuelType";
 import SelectCarType from "./SelectCarType";
 import SelectGearType from "./SelectGearType";
 import SelectDriveType from "./SelectDriveType";
-import { getCarsWithOptions } from "./carsDb/testDb";
+import { getAllCars, getCarsWithOptions } from "./carsDb/testDb";
 
 const steps = [
   {
@@ -74,6 +74,8 @@ export default function Home() {
   const [isDriveType, setIsDriveType] = React.useState(false);
   const [userOptions, setUserOptions] = React.useState({});
   const [selectedButton, setSelectedButton] = React.useState(null);
+  const [data, setData] = React.useState([]);
+  const [filteredCars, setFilteredCars] = React.useState([]);
 
   // userOptions = {
   //   carBrand: "BMW",
@@ -115,11 +117,13 @@ export default function Home() {
 
   React.useEffect(() => {
     const fetchData = async () => {
-      //await getCarsWithOptions(userOptions);
+      const cars = await getAllCars();
+      setData(cars);
+      setFilteredCars(cars);
     };
 
     fetchData();
-  }, [userOptions]);
+  }, []);
 
   const buttons = [
     <Button
@@ -262,8 +266,36 @@ export default function Home() {
   };
 
   const handleFilter = () => {
-    getCarsWithOptions(userOptions);
     setActiveStep(0);
+    console.log(userOptions);
+    var newFilteredCars = filteredCars.filter(
+      (userOptions) => userOptions.maxPrice === filteredCars.maxPrice
+    );
+    newFilteredCars = newFilteredCars.filter(
+      (userOptions) => userOptions.carBrand === newFilteredCars.carBrand
+    );
+    newFilteredCars = newFilteredCars.filter(
+      (userOptions) => userOptions.carModel === newFilteredCars.carModel
+    );
+    newFilteredCars = newFilteredCars.filter(
+      (userOptions) => userOptions.isUsed === newFilteredCars.isUsed
+    );
+    newFilteredCars = newFilteredCars.filter(
+      (userOptions) => userOptions.carYear === newFilteredCars.carYear
+    );
+    newFilteredCars = newFilteredCars.filter(
+      (userOptions) => userOptions.fuelType === newFilteredCars.fuelType
+    );
+    newFilteredCars = newFilteredCars.filter(
+      (userOptions) => userOptions.carType === newFilteredCars.carType
+    );
+    newFilteredCars = newFilteredCars.filter(
+      (userOptions) => userOptions.gearType === newFilteredCars.gearType
+    );
+    newFilteredCars = newFilteredCars.filter(
+      (userOptions) => userOptions.driveType === newFilteredCars.driveType
+    );
+    console.log(newFilteredCars);
   };
 
   const handleBrandChange = (brand) => {

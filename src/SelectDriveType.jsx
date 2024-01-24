@@ -26,9 +26,9 @@ export default function SelectDriveType({ setSelectedDriveType }) {
           autoWidth
           label="GearType"
         >
-          <MenuItem value="rear">Rear-Wheel Drive</MenuItem>
-          <MenuItem value="front">Front-Wheel Drive</MenuItem>
-          <MenuItem value="all-wheel">All-Wheel Drive</MenuItem>
+          <MenuItem value={"Rear-Wheel Drive"}>Rear-Wheel Drive</MenuItem>
+          <MenuItem value={"Front-Wheel Drive"}>Front-Wheel Drive</MenuItem>
+          <MenuItem value={"All-Wheel Drive"}>All-Wheel Drive</MenuItem>
         </Select>
       </FormControl>
     </div>

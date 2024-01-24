@@ -24,9 +24,9 @@ export default function SelectIsNew({ setSelectedIsNew }) {
           autoWidth
           label="Status"
         >
-          <MenuItem value="false">Brand New</MenuItem>
-          <MenuItem value="true">Used</MenuItem>
-          <MenuItem value="">Doesn't matter</MenuItem>
+          <MenuItem value={false}>Brand New</MenuItem>
+          <MenuItem value={true}>Used</MenuItem>
+          <MenuItem value={undefined}>Doesn't matter</MenuItem>
         </Select>
       </FormControl>
     </div>

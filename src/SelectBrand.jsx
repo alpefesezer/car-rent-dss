@@ -24,15 +24,15 @@ export default function SelectBrand({ setBrand }) {
           autoWidth
           label="Model"
         >
-          <MenuItem value="">
+          <MenuItem value={undefined}>
             <em>None</em>
           </MenuItem>
-          <MenuItem value={"Mercedes"}>Mercedes</MenuItem>
-          <MenuItem value={"BMW"}>BMW</MenuItem>
-          <MenuItem value={"Audi"}>Audi</MenuItem>
-          <MenuItem value={"Volkswagen"}>Volkswagen</MenuItem>
-          <MenuItem value={"Porsche"}>Porsche</MenuItem>
-          <MenuItem value={"Opel"}>Opel</MenuItem>
+          <MenuItem value="Mercedes">Mercedes</MenuItem>
+          <MenuItem value="BMW">BMW</MenuItem>
+          <MenuItem value="Audi">Audi</MenuItem>
+          <MenuItem value="Volkswagen">Volkswagen</MenuItem>
+          <MenuItem value="Porsche">Porsche</MenuItem>
+          <MenuItem value="Opel">Opel</MenuItem>
         </Select>
       </FormControl>
     </div>
