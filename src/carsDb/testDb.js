@@ -39,7 +39,6 @@ export async function getAllCars() {
       cars.push(car);
     });
 
-    console.log(cars);
     return cars;
   } catch (error) {
     console.error("Error getting all cars:", error);

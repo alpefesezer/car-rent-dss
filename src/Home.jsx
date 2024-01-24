@@ -17,6 +17,7 @@ import SelectCarType from "./SelectCarType";
 import SelectGearType from "./SelectGearType";
 import SelectDriveType from "./SelectDriveType";
 import { getAllCars, getCarsWithOptions } from "./carsDb/testDb";
+import Car from "./Car";
 
 const steps = [
   {
@@ -76,6 +77,8 @@ export default function Home() {
   const [selectedButton, setSelectedButton] = React.useState(null);
   const [data, setData] = React.useState([]);
   const [filteredCars, setFilteredCars] = React.useState([]);
+  const [isFiltered, setIsFiltered] = React.useState(false);
+  var newFilteredCars = filteredCars;
 
   // userOptions = {
   //   carBrand: "BMW",
@@ -120,6 +123,7 @@ export default function Home() {
       const cars = await getAllCars();
       setData(cars);
       setFilteredCars(cars);
+      newFilteredCars = filteredCars;
     };
 
     fetchData();
@@ -268,60 +272,61 @@ export default function Home() {
   const handleFilter = () => {
     setActiveStep(0);
     console.log(userOptions);
-    var newFilteredCars = filteredCars;
     if (userOptions.maxPrice != undefined) {
       newFilteredCars = newFilteredCars.filter(
         (item) => item.price <= userOptions.maxPrice
       );
     }
-    
+
     if (userOptions.carBrand !== undefined) {
       newFilteredCars = newFilteredCars.filter(
         (item) => item.carBrand === userOptions.carBrand
       );
     }
-    
+
     if (userOptions.carModel !== undefined) {
       newFilteredCars = newFilteredCars.filter(
         (item) => item.carModel === userOptions.carModel
       );
     }
-    
+
     if (userOptions.isUsed !== undefined) {
       newFilteredCars = newFilteredCars.filter(
         (item) => item.isUsed === userOptions.isUsed
       );
     }
-    
+
     if (userOptions.carYear !== undefined) {
       newFilteredCars = newFilteredCars.filter(
         (item) => item.carYear === userOptions.carYear
       );
     }
-    
+
     if (userOptions.fuelType !== undefined) {
       newFilteredCars = newFilteredCars.filter(
         (item) => item.fuelType === userOptions.fuelType
       );
     }
-    
+
     if (userOptions.carType !== undefined) {
       newFilteredCars = newFilteredCars.filter(
         (item) => item.carType === userOptions.carType
       );
     }
-    
+
     if (userOptions.gearType !== undefined) {
       newFilteredCars = newFilteredCars.filter(
         (item) => item.gearType === userOptions.gearType
       );
     }
-    
+
     if (userOptions.driveType !== undefined) {
       newFilteredCars = newFilteredCars.filter(
         (item) => item.driveType === userOptions.driveType
       );
     }
+    setIsFiltered(true);
+    setData(newFilteredCars);
     console.log(newFilteredCars);
   };
 
@@ -377,113 +382,148 @@ export default function Home() {
   };
 
   return (
-    <div style={{ display: "flex", justifyContent: "center", marginTop: "5%" }}>
-      <Box sx={{ maxWidth: 700, minWidth: 700 }}>
-        <Stepper activeStep={activeStep} orientation="vertical">
-          {steps.map((step, index) => (
-            <Step key={step.label}>
-              <StepLabel
-                optional={
-                  index === 7 ? (
-                    <Typography variant="caption">Last step</Typography>
-                  ) : null
-                }
-              >
-                {step.label}
-              </StepLabel>
-              <StepContent>
-                <Typography>{step.description}</Typography>
-                {isBudget && (
-                  <Box
-                    sx={{
-                      display: "flex",
-                      flexDirection: "column",
-                      alignItems: "center",
-                      "& > *": {
-                        m: 1,
-                      },
-                    }}
-                  >
-                    <ButtonGroup
-                      size="large"
-                      aria-label="large button group"
-                      color="secondary"
+    <div>
+      <div
+        style={{ display: "flex", justifyContent: "center", marginTop: "5%" }}
+      >
+        <Box sx={{ maxWidth: 700, minWidth: 700 }}>
+          <Stepper activeStep={activeStep} orientation="vertical">
+            {steps.map((step, index) => (
+              <Step key={step.label}>
+                <StepLabel
+                  optional={
+                    index === 7 ? (
+                      <Typography variant="caption">Last step</Typography>
+                    ) : null
+                  }
+                >
+                  {step.label}
+                </StepLabel>
+                <StepContent>
+                  <Typography>{step.description}</Typography>
+                  {isBudget && (
+                    <Box
+                      sx={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        "& > *": {
+                          m: 1,
+                        },
+                      }}
                     >
-                      {buttons}
-                    </ButtonGroup>
-                  </Box>
-                )}
-                {isBrand && <SelectBrand setBrand={handleBrandChange} />}
-                {isBrand && (
-                  <SelectModel
-                    brand={brand}
-                    setSelectedModel={handleModelChange}
-                  />
-                )}
-                {isNew && <SelectIsNew setSelectedIsNew={handleIsNew} />}
-                {isYear && <SelectYear setSelectedYear={handleYearChange} />}
-                {isFuelType && (
-                  <SelectFuelType setSelectedFuelType={handleFuelTypeChange} />
-                )}
-                {isCarType && (
-                  <SelectCarType setSelectedCarType={handleCarTypeChange} />
-                )}
-                {isGearType && (
-                  <SelectGearType setSelectedGearType={handleGearTypeChange} />
-                )}
-                {isDriveType && (
-                  <SelectDriveType
-                    setSelectedDriveType={handleDriveTypeChange}
-                  />
-                )}
-                <Box sx={{ mb: 2 }}>
-                  <div>
-                    <Button
-                      variant="contained"
-                      onClick={handleNext}
-                      sx={{ mt: 1, mr: 1 }}
-                    >
-                      Continue
-                    </Button>
-                    <Button
-                      disabled={index === 0}
-                      onClick={handleBack}
-                      sx={{ mt: 1, mr: 1 }}
-                    >
-                      Back
-                    </Button>
-                    {(isBrand ||
-                      isYear ||
-                      isFuelType ||
-                      isCarType ||
-                      isGearType ||
-                      isDriveType) && (
-                      <Button sx={{ mt: 1, mr: 1 }} onClick={handleNext}>
-                        Skip
+                      <ButtonGroup
+                        size="large"
+                        aria-label="large button group"
+                        color="secondary"
+                      >
+                        {buttons}
+                      </ButtonGroup>
+                    </Box>
+                  )}
+                  {isBrand && <SelectBrand setBrand={handleBrandChange} />}
+                  {isBrand && (
+                    <SelectModel
+                      brand={brand}
+                      setSelectedModel={handleModelChange}
+                    />
+                  )}
+                  {isNew && <SelectIsNew setSelectedIsNew={handleIsNew} />}
+                  {isYear && <SelectYear setSelectedYear={handleYearChange} />}
+                  {isFuelType && (
+                    <SelectFuelType
+                      setSelectedFuelType={handleFuelTypeChange}
+                    />
+                  )}
+                  {isCarType && (
+                    <SelectCarType setSelectedCarType={handleCarTypeChange} />
+                  )}
+                  {isGearType && (
+                    <SelectGearType
+                      setSelectedGearType={handleGearTypeChange}
+                    />
+                  )}
+                  {isDriveType && (
+                    <SelectDriveType
+                      setSelectedDriveType={handleDriveTypeChange}
+                    />
+                  )}
+                  <Box sx={{ mb: 2 }}>
+                    <div>
+                      <Button
+                        variant="contained"
+                        onClick={handleNext}
+                        sx={{ mt: 1, mr: 1 }}
+                      >
+                        Continue
                       </Button>
-                    )}
-                  </div>
-                </Box>
-              </StepContent>
-            </Step>
-          ))}
-        </Stepper>
-        {activeStep === steps.length && (
-          <Paper square elevation={0} sx={{ p: 3 }}>
-            <Typography>
-              All steps completed - Now you can filter and see the best cars for
-              you!
-            </Typography>
-            <Button
-              variant="contained"
-              onClick={handleFilter}
-              sx={{ mt: 1, mr: 1 }}
-            >
-              Filter
-            </Button>
-          </Paper>
-        )}
-      </Box>
+                      <Button
+                        disabled={index === 0}
+                        onClick={handleBack}
+                        sx={{ mt: 1, mr: 1 }}
+                      >
+                        Back
+                      </Button>
+                      {(isBrand ||
+                        isYear ||
+                        isFuelType ||
+                        isCarType ||
+                        isGearType ||
+                        isDriveType) && (
+                        <Button sx={{ mt: 1, mr: 1 }} onClick={handleNext}>
+                          Skip
+                        </Button>
+                      )}
+                    </div>
+                  </Box>
+                </StepContent>
+              </Step>
+            ))}
+          </Stepper>
+          {activeStep === steps.length && (
+            <Paper square elevation={0} sx={{ p: 3 }}>
+              <Typography>
+                All steps completed - Now you can filter and see the best cars
+                for you!
+              </Typography>
+              <Button
+                variant="contained"
+                onClick={handleFilter}
+                sx={{ mt: 1, mr: 1 }}
+              >
+                Filter
+              </Button>
+            </Paper>
+          )}
+        </Box>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          flexWrap: "wrap",
+          gap: 90,
+          marginLeft: "6%",
+          marginTop: "4%",
+        }}
+      >
+        {isFiltered
+          ? data.map((car) => (
+              <Car
+                imageUrl={car.imageUrl}
+                price={car.price}
+                carBrand={car.carBrand}
+                carModel={car.carModel}
+                carType={car.carType}
+                driveType={car.driveType}
+                gearType={car.gearType}
+                carYear={car.carYear}
+                isUsed={car.isUsed}
+                fuelType={car.fuelType}
+              />
+            ))
+          : null}
+      </div>
     </div>
   );
 }
