@@ -268,34 +268,60 @@ export default function Home() {
   const handleFilter = () => {
     setActiveStep(0);
     console.log(userOptions);
-    var newFilteredCars = null;
-     newFilteredCars = filteredCars.filter(
-      (item) => item.price <= userOptions.maxPrice
-    );
-    newFilteredCars = newFilteredCars.filter(
-      (item) => item.carBrand == userOptions.carBrand
-    );
-    newFilteredCars = newFilteredCars.filter(
-      (item) => item.carModel == userOptions.carModel
-    );
-    newFilteredCars = newFilteredCars.filter(
-      (item) => item.isUsed == userOptions.isUsed
-    );
-    newFilteredCars = newFilteredCars.filter(
-      (item) => item.carYear == userOptions.carYear
-    );
-    newFilteredCars = newFilteredCars.filter(
-      (item) => item.fuelType == userOptions.fuelType
-    );
-    newFilteredCars = newFilteredCars.filter(
-      (item) => item.carType == userOptions.carType
-    );
-    newFilteredCars = newFilteredCars.filter(
-      (item) => item.gearType == userOptions.gearType
-    );
-    newFilteredCars = newFilteredCars.filter(
-      (item) => item.driveType == userOptions.driveType
-    );
+    var newFilteredCars = filteredCars;
+    if (userOptions.maxPrice != undefined) {
+      newFilteredCars = newFilteredCars.filter(
+        (item) => item.price <= userOptions.maxPrice
+      );
+    }
+    
+    if (userOptions.carBrand !== undefined) {
+      newFilteredCars = newFilteredCars.filter(
+        (item) => item.carBrand === userOptions.carBrand
+      );
+    }
+    
+    if (userOptions.carModel !== undefined) {
+      newFilteredCars = newFilteredCars.filter(
+        (item) => item.carModel === userOptions.carModel
+      );
+    }
+    
+    if (userOptions.isUsed !== undefined) {
+      newFilteredCars = newFilteredCars.filter(
+        (item) => item.isUsed === userOptions.isUsed
+      );
+    }
+    
+    if (userOptions.carYear !== undefined) {
+      newFilteredCars = newFilteredCars.filter(
+        (item) => item.carYear === userOptions.carYear
+      );
+    }
+    
+    if (userOptions.fuelType !== undefined) {
+      newFilteredCars = newFilteredCars.filter(
+        (item) => item.fuelType === userOptions.fuelType
+      );
+    }
+    
+    if (userOptions.carType !== undefined) {
+      newFilteredCars = newFilteredCars.filter(
+        (item) => item.carType === userOptions.carType
+      );
+    }
+    
+    if (userOptions.gearType !== undefined) {
+      newFilteredCars = newFilteredCars.filter(
+        (item) => item.gearType === userOptions.gearType
+      );
+    }
+    
+    if (userOptions.driveType !== undefined) {
+      newFilteredCars = newFilteredCars.filter(
+        (item) => item.driveType === userOptions.driveType
+      );
+    }
     console.log(newFilteredCars);
   };
 
