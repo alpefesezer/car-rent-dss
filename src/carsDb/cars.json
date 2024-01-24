@@ -18,7 +18,7 @@
             "carModel": "1 Series",
             "carType": "Hatchback",
             "fuelType": "Gasoline",
-            "gearType": "Manual",
+            "gearType": "Manuel",
             "driveType": "Front-Wheel Drive",
             "isUsed": true,
             "price": 25000,
@@ -306,7 +306,7 @@
             "carModel": "Z4",
             "carType": "Convertible",
             "fuelType": "Gasoline",
-            "gearType": "Manual",
+            "gearType": "Manuel",
             "driveType": "Rear-Wheel Drive",
             "isUsed": true,
             "price": 60000,
@@ -491,7 +491,19 @@
             "isUsed": false,
             "price": 60000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://arabam-blog.mncdn.com/wp-content/uploads/2021/11/2022-Audi-A8-1.jpg"
+          },
+          "audi_a8_2": {
+            "carBrand": "Audi",
+            "carModel": "A8",
+            "carType": "Sedan",
+            "fuelType": "Hybrid",
+            "gearType": "Automatic",
+            "driveType": "All-Wheel Drive",
+            "isUsed": true,
+            "price": 40000,
+            "carYear": 2021,
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmx1n4aSr5npx45NGCjopZzWPYqrdJ1JxEdw&usqp=CAU"
           },
           "audi_q2": {
             "carBrand": "Audi",
@@ -501,9 +513,9 @@
             "gearType": "Automatic",
             "driveType": "Front-Wheel Drive",
             "isUsed": false,
-            "price": 30000,
+            "price": 70000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://arabam-blog.mncdn.com/wp-content/uploads/2022/02/audi-q2-black-line.jpg"
           },
           "audi_q3": {
             "carBrand": "Audi",
@@ -513,9 +525,9 @@
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
             "isUsed": true,
-            "price": 35000,
+            "price": 45000,
             "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/po0K0/s1/2019-audi-q3.webp"
           },
           "audi_q4": {
             "carBrand": "Audi",
@@ -525,9 +537,21 @@
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
             "isUsed": false,
-            "price": 40000,
+            "price": 70000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://media.ed.edmunds-media.com/audi/q4-e-tron/2023/oem/2023_audi_q4-e-tron_4dr-suv_prestige_fq_oem_1_1600.jpg"
+          },
+          "audi_q4_2": {
+            "carBrand": "Audi",
+            "carModel": "Q4",
+            "carType": "SUV",
+            "fuelType": "Hybrid",
+            "gearType": "Automatic",
+            "driveType": "All-Wheel Drive",
+            "isUsed": false,
+            "price": 19000,
+            "carYear": 2011,
+            "imageUrl": "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/10-audi-a4-avant-static-rear.jpg?itok=7VnVW9Wm"
           },
           "audi_q5": {
             "carBrand": "Audi",
@@ -536,22 +560,34 @@
             "fuelType": "Gasoline",
             "gearType": "Automatic",
             "driveType": "Front-Wheel Drive",
-            "isUsed": false,
-            "price": 45000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "isUsed": true,
+            "price": 18000,
+            "carYear": 2009,
+            "imageUrl": "https://www.cnet.com/a/img/resize/d68237a53b5b264ce092c2501a5b330bb13f2bc9/hub/2010/08/03/71bd123c-bb77-11e2-8a8e-0291187978f3/33744703-2-1333-OVR-1.jpg?auto=webp&fit=crop&height=675&width=1200"
           },
           "audi_q6": {
+            "carBrand": "Audi",
+            "carModel": "Q6",
+            "carType": "SUV",
+            "fuelType": "Gasoline",
+            "gearType": "Automatic",
+            "driveType": "Rear-Wheel Drive",
+            "isUsed": true,
+            "price": 50000,
+            "carYear": 2022,
+            "imageUrl": "https://cdn.motor1.com/images/mgl/nAAv06/s1/2023-audi-q6-china.webp"
+          },
+          "audi_q6_2": {
             "carBrand": "Audi",
             "carModel": "Q6",
             "carType": "SUV",
             "fuelType": "Electric",
             "gearType": "Automatic",
             "driveType": "Rear-Wheel Drive",
-            "isUsed": true,
-            "price": 50000,
-            "carYear": 2022,
-            "imageUrl": ""
+            "isUsed": false,
+            "price": 70000,
+            "carYear": 2024,
+            "imageUrl": "https://cdn.motor1.com/images/mgl/EKMmB/s1/2023-audi-q6-e-tron-rendering.jpg"
           },
           "audi_q7": {
             "carBrand": "Audi",
@@ -563,7 +599,7 @@
             "isUsed": false,
             "price": 55000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/Kb1wGM/s3/next-generation-audi-q7-test-mule-spy-photo.jpg"
           },
           "audi_q8": {
             "carBrand": "Audi",
@@ -575,7 +611,7 @@
             "isUsed": false,
             "price": 60000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/AeO9N/s3/audi-q8-tfsi-e-quattro-2020.jpg"
           },
           "audi_tt": {
             "carBrand": "Audi",
@@ -586,8 +622,20 @@
             "driveType": "Front-Wheel Drive",
             "isUsed": false,
             "price": 65000,
-            "carYear": 2022,
-            "imageUrl": ""
+            "carYear": 2024,
+            "imageUrl": "https://cdn.motor1.com/images/mgl/1ZQ2ep/s1/2024-audi-tt-special-edition-for-spain.jpg"
+          },
+          "audi_tt_2": {
+            "carBrand": "Audi",
+            "carModel": "TT",
+            "carType": "Convertible",
+            "fuelType": "Diesel",
+            "gearType": "Automatic",
+            "driveType": "Front-Wheel Drive",
+            "isUsed": false,
+            "price": 15000,
+            "carYear": 2004,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Audi_TT_Coup%C3%A9_II_front_20100503.jpg/1200px-Audi_TT_Coup%C3%A9_II_front_20100503.jpg"
           },
           "audi_r8": {
             "carBrand": "Audi",
@@ -599,7 +647,7 @@
             "isUsed": true,
             "price": 70000,
             "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/qjRXZ/s3/audi-r8-v10-decennium.jpg"
           },
           "audi_s3": {
             "carBrand": "Audi",
@@ -610,8 +658,8 @@
             "driveType": "Rear-Wheel Drive",
             "isUsed": false,
             "price": 75000,
-            "carYear": 2022,
-            "imageUrl": ""
+            "carYear": 2024,
+            "imageUrl": "https://www.audi.com.tr/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-s3_ed1_2020_1017_1.jpg?imwidth=768"
           },
           "audi_s5": {
             "carBrand": "Audi",
@@ -623,7 +671,7 @@
             "isUsed": true,
             "price": 80000,
             "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://www.sertackemiksiz.com/images/2021/05/22/yeni-audi-s5-tanitildi-11_large.jpg"
           },
           "audi_s7": {
             "carBrand": "Audi",
@@ -635,7 +683,7 @@
             "isUsed": false,
             "price": 85000,
             "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://media.ed.edmunds-media.com/audi/s7/2021/oem/2021_audi_s7_sedan_prestige_fq_oem_1_1280.jpg"
           },
           "audi_s8": {
             "carBrand": "Audi",
@@ -647,20 +695,32 @@
             "isUsed": true,
             "price": 90000,
             "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/GG9RA/s1/2020-audi-s8-by-abt.jpg"
           },
           "volkswagen_polo": {
             "carBrand": "Volkswagen",
             "carModel": "Polo",
             "carType": "Hatchback",
             "fuelType": "Gasoline",
-            "gearType": "Automatic",
+            "gearType": "Manuel",
             "driveType": "Front-Wheel Drive",
-            "isUsed": false,
-            "price": 28000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "isUsed": true,
+            "price": 18000,
+            "carYear": 2012,
+            "imageUrl": "https://iis-akakce.akamaized.net/p.z?%2F%2Fapollo%2Direland%2Eakamaized%2Enet%3A443%2Fv1%2Ffiles%2F06hdhaxsnp7e%2DOLXAUTOTR%2Fimage"
         },
+        "volkswagen_polo_2": {
+          "carBrand": "Volkswagen",
+          "carModel": "Polo",
+          "carType": "Hatchback",
+          "fuelType": "Gasoline",
+          "gearType": "Automatic",
+          "driveType": "Front-Wheel Drive",
+          "isUsed": true,
+          "price": 25000,
+          "carYear": 2021,
+          "imageUrl": "https://cdn1.ntv.com.tr/gorsel/tY-dKPt06UKbH0ENJJ16rQ.jpg?width=1000&mode=crop&scale=both"
+      },
         "volkswagen_golf": {
             "carBrand": "Volkswagen",
             "carModel": "Golf",
@@ -671,19 +731,19 @@
             "isUsed": false,
             "price": 32000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://www.otonomi.com/files/OTM-652993494/glr/medium/2019-volkswagen-golf-16-tdi-115-hp-dsg-comfort-otm-69444.jpeg"
         },
         "volkswagen_passat": {
             "carBrand": "Volkswagen",
             "carModel": "Passat",
             "carType": "Sedan",
-            "fuelType": "Hybrid",
+            "fuelType": "Diesel",
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
             "isUsed": true,
             "price": 38000,
             "carYear": 2015,
-            "imageUrl": ""
+            "imageUrl": "https://i0.shbdn.com/photos/11/43/17/x5_113911431714b.jpg"
         },
         "volkswagen_jetta": {
             "carBrand": "Volkswagen",
@@ -695,19 +755,19 @@
             "isUsed": false,
             "price": 35000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://media.ed.edmunds-media.com/volkswagen/jetta/2022/oem/2022_volkswagen_jetta_sedan_se_fq_oem_1_1280.jpg"
         },
         "volkswagen_arteon": {
             "carBrand": "Volkswagen",
             "carModel": "Arteon",
-            "carType": "Coupe",
+            "carType": "Sedan",
             "fuelType": "Gasoline",
             "gearType": "Automatic",
             "driveType": "Front-Wheel Drive",
             "isUsed": true,
             "price": 42000,
             "carYear": 2019,
-            "imageUrl": ""
+            "imageUrl": "https://www.donanimhaber.com/images/images/haber/152669/src_340x1912xvolkswagen-arteon-2024-te-abd-pazarina-veda-edecek.jpg"
         },
         "volkswagen_touareg": {
             "carBrand": "Volkswagen",
@@ -719,7 +779,7 @@
             "isUsed": false,
             "price": 50000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/3WGkvj/s1/2024-vw-touareg-facelift-rendering.webp"
         },
         "volkswagen_atlas": {
             "carBrand": "Volkswagen",
@@ -731,7 +791,7 @@
             "isUsed": false,
             "price": 55000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cars.usnews.com/static/images/Auto/custom/15519/2024_Volkswagen_Atlas_Angular_Front_1.jpg"
         },
         "volkswagen_id4": {
             "carBrand": "Volkswagen",
@@ -743,19 +803,19 @@
             "isUsed": true,
             "price": 60000,
             "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/VW_ID.4_1st_%E2%80%93_f_26122020.jpg/1200px-VW_ID.4_1st_%E2%80%93_f_26122020.jpg"
         },
         "volkswagen_up": {
             "carBrand": "Volkswagen",
             "carModel": "Up!",
             "carType": "Hatchback",
             "fuelType": "Gasoline",
-            "gearType": "Automatic",
+            "gearType": "Manuel",
             "driveType": "Front-Wheel Drive",
             "isUsed": false,
-            "price": 25000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "price": 15000,
+            "carYear": 2017,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/2013_Volkswagen_Take_UP%21_1.0.jpg/1200px-2013_Volkswagen_Take_UP%21_1.0.jpg"
         },
         "volkswagen_amarok": {
             "carBrand": "Volkswagen",
@@ -764,10 +824,10 @@
             "fuelType": "Diesel",
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
-            "isUsed": false,
+            "isUsed": true,
             "price": 45000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "carYear": 2021,
+            "imageUrl": "https://i20.haber7.net/resize/1280x720//haber/haber7/photos/2016/37/vw_amarok_daha_da_guclendi_1473947680_6258.jpg"
         },
         "volkswagen_caddy": {
             "carBrand": "Volkswagen",
@@ -779,31 +839,19 @@
             "isUsed": true,
             "price": 30000,
             "carYear": 2019,
-            "imageUrl": ""
-        },
-        "volkswagen_california": {
-            "carBrand": "Volkswagen",
-            "carModel": "California",
-            "carType": "Camper",
-            "fuelType": "Hybrid",
-            "gearType": "Automatic",
-            "driveType": "All-Wheel Drive",
-            "isUsed": false,
-            "price": 70000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/AMoRV/s1/volkswagen-caddy-caddy-5-life.jpg"
         },
         "volkswagen_vento": {
             "carBrand": "Volkswagen",
             "carModel": "Vento",
             "carType": "Sedan",
-            "fuelType": "Gasoline",
-            "gearType": "Automatic",
+            "fuelType": "Diesel",
+            "gearType": "Manuel",
             "driveType": "Rear-Wheel Drive",
-            "isUsed": false,
-            "price": 32000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "isUsed": true,
+            "price": 12000,
+            "carYear": 2004,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/VW_Vento_front_20080320.jpg"
         },
         "volkswagen_terramont": {
             "carBrand": "Volkswagen",
@@ -815,7 +863,7 @@
             "isUsed": true,
             "price": 55000,
             "carYear": 2019,
-            "imageUrl": ""
+            "imageUrl": "https://img.remediosdigitales.com/08ff85/volkswagen-atlas-2019_2/450_1000.jpg"
         },
         "volkswagen_arteon_shooting_brake": {
             "carBrand": "Volkswagen",
@@ -827,7 +875,7 @@
             "isUsed": false,
             "price": 60000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://uploads.vw-mms.de/system/production/images/vwn/034/868/images/523222a7a050e21d25f5a1ab114441740bb1cd2b/DB2020AU01763_web_1600.jpg?1649156941"
         },
         "volkswagen_id3": {
             "carBrand": "Volkswagen",
@@ -839,55 +887,19 @@
             "isUsed": false,
             "price": 35000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://www.elektriklihaber.com/wp-content/uploads/2023/03/VW-ID3-1-1000x600.jpg"
         },
         "volkswagen_golf_alltrack": {
             "carBrand": "Volkswagen",
             "carModel": "Golf Alltrack",
-            "carType": "Wagon",
+            "carType": "SUV",
             "fuelType": "Gasoline",
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
             "isUsed": false,
             "price": 40000,
             "carYear": 2024,
-            "imageUrl": ""
-        },
-        "volkswagen_multivan": {
-            "carBrand": "Volkswagen",
-            "carModel": "Multivan",
-            "carType": "Van",
-            "fuelType": "Diesel",
-            "gearType": "Automatic",
-            "driveType": "Front-Wheel Drive",
-            "isUsed": true,
-            "price": 45000,
-            "carYear": 2022,
-            "imageUrl": ""
-        },
-        "volkswagen_caravelle": {
-            "carBrand": "Volkswagen",
-            "carModel": "Caravelle",
-            "carType": "Van",
-            "fuelType": "Electric",
-            "gearType": "Automatic",
-            "driveType": "All-Wheel Drive",
-            "isUsed": false,
-            "price": 50000,
-            "carYear": 2024,
-            "imageUrl": ""
-        },
-        "volkswagen_crafter": {
-            "carBrand": "Volkswagen",
-            "carModel": "Crafter",
-            "carType": "Van",
-            "fuelType": "Hybrid",
-            "gearType": "Automatic",
-            "driveType": "Front-Wheel Drive",
-            "isUsed": false,
-            "price": 55000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://uploads.vw-mms.de/system/production/images/vwn/034/951/images/3380703b606e29be458e2d1c41db6b3e3f98bb89/DB2020AU00607_web_1600.jpg?1649156978"
         },
         "volkswagen_amarok_v6": {
             "carBrand": "Volkswagen",
@@ -897,33 +909,21 @@
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
             "isUsed": true,
-            "price": 60000,
+            "price": 36000,
             "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/Yy2ye/s1/volkswagen-amarok-by-abit.jpg"
         },
         "volkswagen_arteon_r": {
             "carBrand": "Volkswagen",
             "carModel": "Arteon R",
-            "carType": "Coupe",
+            "carType": "Sedan",
             "fuelType": "Gasoline",
             "gearType": "Automatic",
             "driveType": "Front-Wheel Drive",
             "isUsed": false,
             "price": 65000,
             "carYear": 2024,
-            "imageUrl": ""
-        },
-        "volkswagen_id_buzz": {
-            "carBrand": "Volkswagen",
-            "carModel": "ID. Buzz",
-            "carType": "Van",
-            "fuelType": "Electric",
-            "gearType": "Automatic",
-            "driveType": "Rear-Wheel Drive",
-            "isUsed": true,
-            "price": 70000,
-            "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://www.log.com.tr/wp-content/uploads/2020/06/2021-volkswagen-arteon-r-1.jpg"
         },
         "volkswagen_amarok_black_edition": {
             "carBrand": "Volkswagen",
@@ -934,8 +934,8 @@
             "driveType": "All-Wheel Drive",
             "isUsed": false,
             "price": 75000,
-            "carYear": 2022,
-            "imageUrl": ""
+            "carYear": 2024,
+            "imageUrl": "https://asv4.imgix.net/news/1249.jpg"
         },
         "porsche_911": {
             "carBrand": "Porsche",
@@ -945,10 +945,22 @@
             "gearType": "Automatic",
             "driveType": "Rear-Wheel Drive",
             "isUsed": false,
-            "price": 100000,
+            "price": 90000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/XB3q7k/s1/2023-porsche-911-carrera-t-in-python-green.webp"
         },
+        "porsche_911_2": {
+          "carBrand": "Porsche",
+          "carModel": "911",
+          "carType": "Coupe",
+          "fuelType": "Gasoline",
+          "gearType": "Automatic",
+          "driveType": "Rear-Wheel Drive",
+          "isUsed": true,
+          "price": 70000,
+          "carYear": 2022,
+          "imageUrl": "https://arabam-blog.mncdn.com/wp-content/uploads/2022/10/2023-porsche-911-carrera-t-in-gulf-blue.jpg"
+      },
         "porsche_718_cayman": {
             "carBrand": "Porsche",
             "carModel": "718 Cayman",
@@ -957,9 +969,9 @@
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
             "isUsed": true,
-            "price": 110000,
+            "price": 95000,
             "carYear": 2019,
-            "imageUrl": ""
+            "imageUrl": "https://www.autoworlddergisi.com/wp-content/uploads/2021/11/1637129013_S21_5353_fine-scaled.jpg"
         },
         "porsche_718_boxster": {
             "carBrand": "Porsche",
@@ -969,9 +981,9 @@
             "gearType": "Automatic",
             "driveType": "Rear-Wheel Drive",
             "isUsed": false,
-            "price": 120000,
+            "price": 75000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/WOxW1/s3/2021-porsche-boxster-25-rear.jpg"
         },
         "porsche_panamera": {
             "carBrand": "Porsche",
@@ -981,9 +993,9 @@
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
             "isUsed": false,
-            "price": 130000,
+            "price": 78000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/eoRmyE/s1/porsche-panamera-2024.jpg"
         },
         "porsche_cayenne": {
             "carBrand": "Porsche",
@@ -992,10 +1004,10 @@
             "fuelType": "Diesel",
             "gearType": "Automatic",
             "driveType": "Front-Wheel Drive",
-            "isUsed": false,
-            "price": 140000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "isUsed": true,
+            "price": 55000,
+            "carYear": 2021,
+            "imageUrl": "https://i0.shbdn.com/photos/85/90/89/x5_1139859089m3y.jpg"
         },
         "porsche_macan": {
             "carBrand": "Porsche",
@@ -1005,45 +1017,45 @@
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
             "isUsed": true,
-            "price": 150000,
+            "price": 97000,
             "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://i0.shbdn.com/photos/46/30/72/x5_1129463072742.jpg"
         },
         "porsche_taycan": {
             "carBrand": "Porsche",
             "carModel": "Taycan",
-            "carType": "Electric",
+            "carType": "Sedan",
             "fuelType": "Electric",
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
             "isUsed": false,
-            "price": 160000,
+            "price": 99000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Porsche_Taycan_at_IAA_2019_IMG_0786.jpg/1200px-Porsche_Taycan_at_IAA_2019_IMG_0786.jpg"
         },
         "porsche_cayman_gt4": {
             "carBrand": "Porsche",
             "carModel": "Cayman GT4",
             "carType": "Coupe",
             "fuelType": "Gasoline",
-            "gearType": "Manual",
+            "gearType": "Manuel",
             "driveType": "Rear-Wheel Drive",
             "isUsed": true,
-            "price": 170000,
+            "price": 86000,
             "carYear": 2019,
-            "imageUrl": ""
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/roa070120fea-caymangt4-10-1596031988.jpg?crop=1.00xw:0.334xh;0,0.393xh&resize=1200:*"
         },
         "porsche_911_turbo": {
             "carBrand": "Porsche",
             "carModel": "911 Turbo",
             "carType": "Coupe",
-            "fuelType": "Hybrid",
+            "fuelType": "Gasoline",
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
             "isUsed": false,
-            "price": 180000,
+            "price": 99000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/Oo3xke/s1/mansory-p9lm-evo-900-porsche-911-turbo-s.webp"
         },
         "porsche_911_gt3": {
             "carBrand": "Porsche",
@@ -1052,10 +1064,10 @@
             "fuelType": "Gasoline",
             "gearType": "Automatic",
             "driveType": "Rear-Wheel Drive",
-            "isUsed": false,
-            "price": 190000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "isUsed": true,
+            "price": 90000,
+            "carYear": 2020,
+            "imageUrl": "https://cdn.motor1.com/images/mgl/vxxvy6/s1/2023-porsche-911-gt3-rs-teaser-image.jpg"
         },
         "porsche_911_targa": {
             "carBrand": "Porsche",
@@ -1065,21 +1077,21 @@
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
             "isUsed": true,
-            "price": 200000,
+            "price": 78000,
             "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/Xpm89/s3/porsche-911-targa-4-und-targa-4s-2020.jpg"
         },
         "porsche_718_cayman_gt4": {
             "carBrand": "Porsche",
             "carModel": "718 Cayman GT4",
             "carType": "Coupe",
             "fuelType": "Gasoline",
-            "gearType": "Manual",
+            "gearType": "Manuel",
             "driveType": "Rear-Wheel Drive",
-            "isUsed": false,
-            "price": 210000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "isUsed": true,
+            "price": 70000,
+            "carYear": 2019,
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/dsc08690-1637086240.jpg"
         },
         "porsche_718_boxster_gt4": {
             "carBrand": "Porsche",
@@ -1089,9 +1101,9 @@
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
             "isUsed": false,
-            "price": 220000,
+            "price": 85000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/porsche-718-boxster-spyder-gt4-rs-goodwood-front-quarter.jpg?itok=S51DzZdv"
         },
         "porsche_panamera_turbo": {
             "carBrand": "Porsche",
@@ -1101,9 +1113,9 @@
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
             "isUsed": true,
-            "price": 230000,
+            "price": 93000,
             "carYear": 2019,
-            "imageUrl": ""
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/2020-porsche-panamera-turbo-mmp-1-1579209005.jpg?crop=0.521xw:0.694xh;0.00651xw,0.240xh&resize=768:*"
         },
         "porsche_cayenne_turbo": {
             "carBrand": "Porsche",
@@ -1113,9 +1125,9 @@
             "gearType": "Automatic",
             "driveType": "Front-Wheel Drive",
             "isUsed": false,
-            "price": 240000,
+            "price": 89000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://www.motortrend.com/uploads/2023/10/003-2023-Porsche-Cayenne-Coupe-Turbo-GT.jpg"
         },
         "porsche_macan_turbo": {
             "carBrand": "Porsche",
@@ -1124,10 +1136,10 @@
             "fuelType": "Gasoline",
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
-            "isUsed": false,
-            "price": 250000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "isUsed": true,
+            "price": 99000,
+            "carYear": 2022,
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/2021-porsche-macan-turbo-mmp-1-1605284123.jpg"
         },
         "porsche_taycan_turbo": {
             "carBrand": "Porsche",
@@ -1137,9 +1149,9 @@
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
             "isUsed": true,
-            "price": 260000,
+            "price": 98000,
             "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://i0.shbdn.com/photos/33/18/96/x5_1110331896mcn.jpg"
         },
         "porsche_911_carrera": {
             "carBrand": "Porsche",
@@ -1149,9 +1161,9 @@
             "gearType": "Automatic",
             "driveType": "Rear-Wheel Drive",
             "isUsed": false,
-            "price": 270000,
+            "price": 82000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/XB3q7k/s1/2023-porsche-911-carrera-t-in-python-green.jpg"
         },
         "porsche_911_turbo_s": {
             "carBrand": "Porsche",
@@ -1160,10 +1172,10 @@
             "fuelType": "Gasoline",
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
-            "isUsed": false,
-            "price": 280000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "isUsed": true,
+            "price": 99000,
+            "carYear": 2004,
+            "imageUrl": "https://robbreport.com/wp-content/uploads/2022/12/Porsche_TurboS_1.jpg?w=1000"
         },
         "mercedes_a_class": {
             "carBrand": "Mercedes",
@@ -1175,7 +1187,7 @@
             "isUsed": false,
             "price": 30000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://www.mercedes-benz.com.tr/content/turkey/tr/passengercars/models/hatchback/a-class/overview/_jcr_content/root/responsivegrid/highlight_1459743572/slider/image.component.damq1.3343510474838.jpg/mercedes-benz-a-class-w177-exterior-paintfinish-01-3302x1858-08-2022.jpg"
           },
           "mercedes_b_class": {
             "carBrand": "Mercedes",
@@ -1187,19 +1199,31 @@
             "isUsed": false,
             "price": 35000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/6ZKAMb/s3/mercedes-benz-b-klasse-2023.jpg"
+          },
+          "mercedes_b_class_2": {
+            "carBrand": "Mercedes",
+            "carModel": "B-Class",
+            "carType": "MPV",
+            "fuelType": "Diesel",
+            "gearType": "Automatic",
+            "driveType": "Front-Wheel Drive",
+            "isUsed": true,
+            "price": 25000,
+            "carYear": 2020,
+            "imageUrl": "https://m.atcdn.co.uk/vms/media/3df4193eaeb4411083c1e9cf7801883c.jpg"
           },
           "mercedes_c_class": {
             "carBrand": "Mercedes",
             "carModel": "C-Class",
             "carType": "Sedan",
-            "fuelType": "Hybrid",
+            "fuelType": "Gasoline",
             "gearType": "Automatic",
             "driveType": "Rear-Wheel Drive",
             "isUsed": true,
             "price": 40000,
             "carYear": 2015,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/k3pee/s1/mercedes-c-klasse-limousine-2021.webp"
           },
           "mercedes_e_class": {
             "carBrand": "Mercedes",
@@ -1213,17 +1237,29 @@
             "carYear": 2024,
             "imageUrl": ""
           },
+          "mercedes_e_class_2": {
+            "carBrand": "Mercedes",
+            "carModel": "E-Class",
+            "carType": "Convertible",
+            "fuelType": "Gasoline",
+            "gearType": "Automatic",
+            "driveType": "All-Wheel Drive",
+            "isUsed": true,
+            "price": 15000,
+            "carYear": 2002,
+            "imageUrl": "https://upload.turkcewiki.org/wikipedia/commons/thumb/8/81/Mercedes_W202_front_20071030.jpg/280px-Mercedes_W202_front_20071030.jpg"
+          },
           "mercedes_s_class": {
             "carBrand": "Mercedes",
             "carModel": "S-Class",
             "carType": "Sedan",
-            "fuelType": "Electric",
-            "gearType": "Automatic",
+            "fuelType": "Gasoline",
+            "gearType": "Manuel",
             "driveType": "Rear-Wheel Drive",
             "isUsed": false,
-            "price": 50000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "price": 30000,
+            "carYear": 1998,
+            "imageUrl": "https://i.ytimg.com/vi/uVIyL2-sDss/maxresdefault.jpg"
           },
           "mercedes_gla": {
             "carBrand": "Mercedes",
@@ -1235,7 +1271,7 @@
             "isUsed": true,
             "price": 55000,
             "carYear": 2019,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/9mBAog/s3/mercedes-gla-2023-und-mercedes-glb-2023.jpg"
           },
           "mercedes_glc": {
             "carBrand": "Mercedes",
@@ -1247,7 +1283,7 @@
             "isUsed": false,
             "price": 60000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://www.donanimhaber.com/cache-v2/?t=0&width=-1&text=0&path=https://www.donanimhaber.com/images/images/galeri/7568/2022-mercedes-benz-glc-tasarimi-ve-ozellikleri-7568-5.jpg"
           },
           "mercedes_gle": {
             "carBrand": "Mercedes",
@@ -1259,7 +1295,7 @@
             "isUsed": false,
             "price": 65000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/z2mo6/s3/mercedes-amg-gle-63-s-coupe.jpg"
           },
           "mercedes_gls": {
             "carBrand": "Mercedes",
@@ -1271,19 +1307,19 @@
             "isUsed": true,
             "price": 70000,
             "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://ioto.tmgrup.com.tr/posts/2023/04/06/dNUdnCascfjwopY3pJN1pCWybA5gYQdI9rhUp9Sl.jpg"
           },
           "mercedes_sls_amg": {
             "carBrand": "Mercedes",
             "carModel": "SLS AMG",
             "carType": "Coupe",
-            "fuelType": "Electric",
+            "fuelType": "Gasoline",
             "gearType": "Automatic",
-            "driveType": "All-Wheel Drive",
-            "isUsed": false,
+            "driveType": "Rear-Wheel Drive",
+            "isUsed": true,
             "price": 75000,
             "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/0q109/s3/mercedes-sls-amg-inden-design.jpg"
           },
           "mercedes_slc": {
             "carBrand": "Mercedes",
@@ -1295,7 +1331,7 @@
             "isUsed": true,
             "price": 80000,
             "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/jQgEl/s1/4x3/mercedes-slc-final-edition.webp"
           },
           "mercedes_cls": {
             "carBrand": "Mercedes",
@@ -1304,10 +1340,10 @@
             "fuelType": "Hybrid",
             "gearType": "Automatic",
             "driveType": "Front-Wheel Drive",
-            "isUsed": false,
-            "price": 85000,
-            "carYear": 2023,
-            "imageUrl": ""
+            "isUsed": true,
+            "price": 55000,
+            "carYear": 2022,
+            "imageUrl": "https://www.mercedes-benz.com.tr/content/turkey/tr/passengercars/models/coupe/c257-22-2/overview/_jcr_content/root/responsivegrid/tabs/tabitem/hotspot_module/hotspot_simple_image.component.damq1.3347597554697.jpg/mercedes-benz-cls-c257-exterior-hotspot-start-3302x1858-11-2022.jpg"
           },
           "mercedes_amg_gt": {
             "carBrand": "Mercedes",
@@ -1319,19 +1355,7 @@
             "isUsed": false,
             "price": 90000,
             "carYear": 2023,
-            "imageUrl": ""
-          },
-          "mercedes_v_class": {
-            "carBrand": "Mercedes",
-            "carModel": "V-Class",
-            "carType": "MPV",
-            "fuelType": "Diesel",
-            "gearType": "Automatic",
-            "driveType": "Front-Wheel Drive",
-            "isUsed": true,
-            "price": 95000,
-            "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/XBGv4l/s3/mercedes-amg-gt-gt2-pro.jpg"
           },
           "mercedes_x_class": {
             "carBrand": "Mercedes",
@@ -1339,23 +1363,23 @@
             "carType": "Pickup",
             "fuelType": "Gasoline",
             "gearType": "Automatic",
-            "driveType": "Four-Wheel Drive",
-            "isUsed": false,
-            "price": 100000,
+            "driveType": "All-Wheel Drive",
+            "isUsed": true,
+            "price": 45000,
             "carYear": 2022,
-            "imageUrl": ""
+            "imageUrl": "https://www.cankayoto.com/assets/images/gallery/product/2018-mercedes-x-class---mat-siyah---42.000km_8.jpg"
           },
           "opel_astra": {
             "carBrand": "Opel",
             "carModel": "Astra",
             "carType": "Hatchback",
             "fuelType": "Gasoline",
-            "gearType": "Automatic",
+            "gearType": "Manuel",
             "driveType": "Front-Wheel Drive",
-            "isUsed": false,
-            "price": 25000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "isUsed": true,
+            "price": 9000,
+            "carYear": 2012,
+            "imageUrl": "https://arabam-blog.mncdn.com/wp-content/uploads/2022/03/8a5b96a56c929075da9ba7da2fc3cf84.jpg"
           },
           "opel_corsa": {
             "carBrand": "Opel",
@@ -1367,19 +1391,31 @@
             "isUsed": false,
             "price": 22000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://image5.sahibinden.com/staticContent/vehicleStockImagesV2/1253/ef0800/x_1216_684_60324001253-7c1ecfc93ca8648f2dfff2e57212656e.jpg"
+          },
+          "opel_corsa_2": {
+            "carBrand": "Opel",
+            "carModel": "Corsa",
+            "carType": "Hatchback",
+            "fuelType": "Diesel",
+            "gearType": "Manuel",
+            "driveType": "Front-Wheel Drive",
+            "isUsed": true,
+            "price": 3000,
+            "carYear": 2004,
+            "imageUrl": "https://www.karikinciel.com/B2ELResim/AracResim2El/3777/cac6cfedd28b4e66b77e169b0a69231b3107202116443918129_0_Buyuk.jpg"
           },
           "opel_insignia": {
             "carBrand": "Opel",
             "carModel": "Insignia",
             "carType": "Sedan",
-            "fuelType": "Hybrid",
+            "fuelType": "Diesel",
             "gearType": "Automatic",
-            "driveType": "All-Wheel Drive",
+            "driveType": "Front-Wheel Drive",
             "isUsed": true,
             "price": 30000,
             "carYear": 2019,
-            "imageUrl": ""
+            "imageUrl": "https://images.prd.kavak.io/images/284271/EXTERIOR-frontSidePilotNear-1699611269003.jpeg"
           },
           "opel_cascada": {
             "carBrand": "Opel",
@@ -1391,19 +1427,19 @@
             "isUsed": false,
             "price": 35000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://www.otostil.com/wp-content/uploads/2018/10/opel-cascada.jpg"
           },
           "opel_mokka": {
             "carBrand": "Opel",
             "carModel": "Mokka",
             "carType": "SUV",
-            "fuelType": "Electric",
+            "fuelType": "Hybrid",
             "gearType": "Automatic",
             "driveType": "Rear-Wheel Drive",
             "isUsed": false,
             "price": 40000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/01N03/s1/opel-mokka-e-2020.jpg"
           },
           "opel_grandland_x": {
             "carBrand": "Opel",
@@ -1413,21 +1449,21 @@
             "gearType": "Automatic",
             "driveType": "All-Wheel Drive",
             "isUsed": false,
-            "price": 45000,
+            "price": 35000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://cdn.motor1.com/images/mgl/JRONA/s1/opel-grandland-x.jpg"
           },
           "opel_crossland_x": {
             "carBrand": "Opel",
             "carModel": "Crossland X",
             "carType": "SUV",
             "fuelType": "Diesel",
-            "gearType": "Automatic",
+            "gearType": "Manuel",
             "driveType": "Front-Wheel Drive",
-            "isUsed": false,
-            "price": 30000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "isUsed": true,
+            "price": 18000,
+            "carYear": 2020,
+            "imageUrl": "https://i0.shbdn.com/photos/32/94/73/x5_1107329473led.jpg"
           },
           "opel_karl": {
             "carBrand": "Opel",
@@ -1439,55 +1475,31 @@
             "isUsed": false,
             "price": 25000,
             "carYear": 2024,
-            "imageUrl": ""
-          },
-          "opel_vivaro": {
-            "carBrand": "Opel",
-            "carModel": "Vivaro",
-            "carType": "Van",
-            "fuelType": "Diesel",
-            "gearType": "Automatic",
-            "driveType": "Front-Wheel Drive",
-            "isUsed": true,
-            "price": 35000,
-            "carYear": 2022,
-            "imageUrl": ""
-          },
-          "opel_zafira": {
-            "carBrand": "Opel",
-            "carModel": "Zafira",
-            "carType": "Van",
-            "fuelType": "Hybrid",
-            "gearType": "Automatic",
-            "driveType": "All-Wheel Drive",
-            "isUsed": false,
-            "price": 40000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://ajansotomobil.com/media/gallery/1078/17097.jpg"
           },
           "opel_ampera": {
             "carBrand": "Opel",
             "carModel": "Ampera",
             "carType": "Hatchback",
-            "fuelType": "Electric",
-            "gearType": "Automatic",
-            "driveType": "All-Wheel Drive",
-            "isUsed": true,
-            "price": 45000,
-            "carYear": 2022,
-            "imageUrl": ""
+            "fuelType": "Diesel",
+            "gearType": "Manuel",
+            "driveType": "Front-Wheel Drive",
+            "isUsed": false,
+            "price": 15000,
+            "carYear": 2015,
+            "imageUrl": "https://stellantis3.dam-broadcast.com/medias/domain12808/media101975/592561-0ksn6asp6p-whr.jpg"
           },
           "opel_gt": {
             "carBrand": "Opel",
             "carModel": "GT",
-            "carType": "Coupe",
+            "carType": "Convertible",
             "fuelType": "Gasoline",
             "gearType": "Automatic",
             "driveType": "Rear-Wheel Drive",
             "isUsed": false,
             "price": 50000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://www.topgear.com/sites/default/files/2021/11/Opel-GT-2007-1600-09.jpg"
           },
           "opel_speedster": {
             "carBrand": "Opel",
@@ -1499,43 +1511,43 @@
             "isUsed": false,
             "price": 55000,
             "carYear": 2024,
-            "imageUrl": ""
+            "imageUrl": "https://prod.pictures.autoscout24.net/listing-images/6f3036eb-f408-4bf4-9b35-d6300c955f28_8458a67d-6655-44f7-a68d-43dd6707d6df.jpg/250x188.webp"
           },
           "opel_signum": {
             "carBrand": "Opel",
             "carModel": "Signum",
-            "carType": "Sedan",
-            "fuelType": "Hybrid",
-            "gearType": "Automatic",
-            "driveType": "All-Wheel Drive",
-            "isUsed": false,
-            "price": 60000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "carType": "Hatchback",
+            "fuelType": "Diesel",
+            "gearType": "Manuel",
+            "driveType": "Front-Wheel Drive",
+            "isUsed": true,
+            "price": 14000,
+            "carYear": 2016,
+            "imageUrl": "https://i.ytimg.com/vi/D6XRe_XFZxA/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFYgXyhlMA8=&rs=AOn4CLCaZPb1mEVK_TCQPGF_Q74mtW3KRw"
           },
           "opel_ascona": {
             "carBrand": "Opel",
             "carModel": "Ascona",
-            "carType": "Sedan",
+            "carType": "Hatchback",
             "fuelType": "Gasoline",
-            "gearType": "Automatic",
+            "gearType": "Manuel",
             "driveType": "Front-Wheel Drive",
             "isUsed": true,
-            "price": 65000,
-            "carYear": 2019,
-            "imageUrl": ""
+            "price": 7500,
+            "carYear": 1999,
+            "imageUrl": "https://cdn.motor1.com/images/mgl/nAmN0j/s3/opel-ascona-lead-image.jpg"
           },
           "opel_meriva": {
             "carBrand": "Opel",
             "carModel": "Meriva",
-            "carType": "SUV",
+            "carType": "Hatchback",
             "fuelType": "Diesel",
             "gearType": "Automatic",
-            "driveType": "All-Wheel Drive",
-            "isUsed": false,
-            "price": 70000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "driveType": "Front-Wheel Drive",
+            "isUsed": true,
+            "price": 9000,
+            "carYear": 2013,
+            "imageUrl": "https://ioto.tmgrup.com.tr/posts/2016/11/10/mWVtGDB8kf3r64Q3GPVAaqxhQXKW8o3L1bNCyjd9.jpg"
           },
           "opel_antara": {
             "carBrand": "Opel",
@@ -1543,23 +1555,23 @@
             "carType": "SUV",
             "fuelType": "Gasoline",
             "gearType": "Automatic",
-            "driveType": "Rear-Wheel Drive",
+            "driveType": "Front-Wheel Drive",
             "isUsed": true,
-            "price": 75000,
-            "carYear": 2022,
-            "imageUrl": ""
+            "price": 14700,
+            "carYear": 2015,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Opel_Antara_Tiefseeblau.JPG/800px-Opel_Antara_Tiefseeblau.JPG"
           },
           "opel_tigra": {
             "carBrand": "Opel",
             "carModel": "Tigra",
             "carType": "Convertible",
-            "fuelType": "Hybrid",
-            "gearType": "Automatic",
-            "driveType": "All-Wheel Drive",
-            "isUsed": false,
-            "price": 80000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "fuelType": "Gasoline",
+            "gearType": "Manuel",
+            "driveType": "Front-Wheel Drive",
+            "isUsed": true,
+            "price": 19000,
+            "carYear": 2011,
+            "imageUrl": "https://m.media-amazon.com/images/I/51Gr94+j71L._AC_UF1000,1000_QL80_.jpg"
           },
           "opel_calibra": {
             "carBrand": "Opel",
@@ -1568,22 +1580,22 @@
             "fuelType": "Gasoline",
             "gearType": "Automatic",
             "driveType": "Front-Wheel Drive",
-            "isUsed": false,
-            "price": 85000,
-            "carYear": 2024,
-            "imageUrl": ""
+            "isUsed": true,
+            "price": 11000,
+            "carYear": 2014,
+            "imageUrl": "https://cdn3.focus.bg/autodata/i/opel/calibra/calibra-a/large/6ad4ada7143a78dca25cc7cf04d4c600.jpg"
           },
           "opel_kadett": {
             "carBrand": "Opel",
             "carModel": "Kadett",
             "carType": "Hatchback",
-            "fuelType": "Electric",
-            "gearType": "Automatic",
-            "driveType": "All-Wheel Drive",
+            "fuelType": "Diesel",
+            "gearType": "Manuel",
+            "driveType": "Front-Wheel Drive",
             "isUsed": true,
-            "price": 90000,
-            "carYear": 2022,
-            "imageUrl": ""
+            "price": 9000,
+            "carYear": 1997,
+            "imageUrl": "https://models118.com/5176-thickbox_default/opel-kadett-d-gte-red-mcg-1-18.webp"
           }
       }
     }
