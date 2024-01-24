@@ -268,32 +268,33 @@ export default function Home() {
   const handleFilter = () => {
     setActiveStep(0);
     console.log(userOptions);
-    var newFilteredCars = filteredCars.filter(
-      (userOptions) => userOptions.maxPrice === filteredCars.maxPrice
+    var newFilteredCars = null;
+     newFilteredCars = filteredCars.filter(
+      (item) => item.price <= userOptions.maxPrice
     );
     newFilteredCars = newFilteredCars.filter(
-      (userOptions) => userOptions.carBrand === newFilteredCars.carBrand
+      (item) => item.carBrand == userOptions.carBrand
     );
     newFilteredCars = newFilteredCars.filter(
-      (userOptions) => userOptions.carModel === newFilteredCars.carModel
+      (item) => item.carModel == userOptions.carModel
     );
     newFilteredCars = newFilteredCars.filter(
-      (userOptions) => userOptions.isUsed === newFilteredCars.isUsed
+      (item) => item.isUsed == userOptions.isUsed
     );
     newFilteredCars = newFilteredCars.filter(
-      (userOptions) => userOptions.carYear === newFilteredCars.carYear
+      (item) => item.carYear == userOptions.carYear
     );
     newFilteredCars = newFilteredCars.filter(
-      (userOptions) => userOptions.fuelType === newFilteredCars.fuelType
+      (item) => item.fuelType == userOptions.fuelType
     );
     newFilteredCars = newFilteredCars.filter(
-      (userOptions) => userOptions.carType === newFilteredCars.carType
+      (item) => item.carType == userOptions.carType
     );
     newFilteredCars = newFilteredCars.filter(
-      (userOptions) => userOptions.gearType === newFilteredCars.gearType
+      (item) => item.gearType == userOptions.gearType
     );
     newFilteredCars = newFilteredCars.filter(
-      (userOptions) => userOptions.driveType === newFilteredCars.driveType
+      (item) => item.driveType == userOptions.driveType
     );
     console.log(newFilteredCars);
   };
