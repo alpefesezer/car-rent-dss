@@ -8,15 +8,26 @@ import {
   getDoc,
 } from "firebase/firestore";
 
-// Your web app's Firebase configuration
+// Cars2 Config
+// const firebaseConfig = {
+//   apiKey: "AIzaSyCusoLFmPQf-6JWMmFFI3ToS9k6RDm4kP8",
+//   authDomain: "cars2-488f3.firebaseapp.com",
+//   projectId: "cars2-488f3",
+//   storageBucket: "cars2-488f3.appspot.com",
+//   messagingSenderId: "979830295690",
+//   appId: "1:979830295690:web:594354e05a9463e773f173",
+//   measurementId: "G-16C956WWYG",
+// };
+
+//cars3 config
 const firebaseConfig = {
-  apiKey: "AIzaSyCusoLFmPQf-6JWMmFFI3ToS9k6RDm4kP8",
-  authDomain: "cars2-488f3.firebaseapp.com",
-  projectId: "cars2-488f3",
-  storageBucket: "cars2-488f3.appspot.com",
-  messagingSenderId: "979830295690",
-  appId: "1:979830295690:web:594354e05a9463e773f173",
-  measurementId: "G-16C956WWYG",
+  apiKey: "AIzaSyCcBsG5KWCwwkXHk93SGDAU7KpSBa6vcOo",
+  authDomain: "cars3-53cea.firebaseapp.com",
+  projectId: "cars3-53cea",
+  storageBucket: "cars3-53cea.appspot.com",
+  messagingSenderId: "154765012332",
+  appId: "1:154765012332:web:d3ee56d19d45f9e4591749",
+  measurementId: "G-8GYC25L5QT"
 };
 
 // Initialize Firebase
